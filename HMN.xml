@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/tiberiuvicol/Dropbox/RIAA/HMN/HMN.sch</source>
+    <date>2020 September 03, Thursday 22:49:18</date>
+    <tool>Eeschema (5.1.6-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>His Master's Noise</title>
+        <company>DIY</company>
+        <rev>1</rev>
+        <date>2020-04-05</date>
+        <source>HMN.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="Schematic SY, PCB design tvicol"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ECC88</value>
+      <footprint>Valve:Valve_ECC-83-2</footprint>
+      <datasheet>http://www.r-type.org/pdfs/ecc88.pdf</datasheet>
+      <libsource lib="Valve" part="ECC88" description="double triode, low-noise"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8601DE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>D3A</value>
+      <footprint>Valve:Valve_ECC-83-2</footprint>
+      <datasheet>http://www.r-type.org/pdfs/ef80.pdf</datasheet>
+      <libsource lib="d3a" part="D3A" description="pentode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E878504</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>IR LED</value>
+      <footprint>LED_THT:LED_D3.0mm_IRBlack</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E88754A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED LED</value>
+      <footprint>LED_THT:LED_D3.0mm_IRGrey</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E888558</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>6k8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E89D070</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>DN2540N5</value>
+      <footprint>TO254P483X1016X2375-3P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/DN2540N5.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 400V 25Ohm</field>
+        <field name="Height">4.826</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">DN2540N5</field>
+        <field name="Mouser Part Number">689-DN2540N5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=689-DN2540N5</field>
+      </fields>
+      <libsource lib="HMN-rescue" part="DN2540N5-SamacSys" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8BF7ED</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>DN2540N5</value>
+      <footprint>TO254P483X1016X2375-3P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/DN2540N5.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 400V 25Ohm</field>
+        <field name="Height">4.826</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">DN2540N5</field>
+        <field name="Mouser Part Number">689-DN2540N5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=689-DN2540N5</field>
+      </fields>
+      <libsource lib="HMN-rescue" part="DN2540N5-SamacSys" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8BF7F9</tstamp>
+    </comp>
+    <comp ref="NE1">
+      <value>NE-2</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Lamp_Neon" description="Neon lamp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8D2276</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>150R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8DE77F</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8DFD42</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8FBB95</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>34nF*</value>
+      <footprint>Capacitor_THT:C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8FC4CC</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8FCA27</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E89E8A0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E89EFD1</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8BC6FD</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8D1DFF</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8D2280</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8D23C9</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E94ABA5</tstamp>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink</value>
+      <footprint>Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8CA0AC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2,2uF</value>
+      <footprint>Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8E7504</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8BF7DB</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8BF7E1</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8BF7D5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8C7216</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8E173C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B999C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B99A2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B99AE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B99A8</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8EFC46</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F1A01</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>91R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F1260</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>3k3</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F0992</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>20k*</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F03BE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E89A9F7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E896C54</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E897098</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>120R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E896397</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>300R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E898033</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>DN2540N5</value>
+      <footprint>TO254P483X1016X2375-3P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/DN2540N5.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 400V 25Ohm</field>
+        <field name="Height">4.826</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">DN2540N5</field>
+        <field name="Mouser Part Number">689-DN2540N5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=689-DN2540N5</field>
+      </fields>
+      <libsource lib="HMN-rescue" part="DN2540N5-SamacSys" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B99BA</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DN2540N5</value>
+      <footprint>TO254P483X1016X2375-3P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/DN2540N5.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 400V 25Ohm</field>
+        <field name="Height">4.826</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">DN2540N5</field>
+        <field name="Mouser Part Number">689-DN2540N5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=689-DN2540N5</field>
+      </fields>
+      <libsource lib="HMN-rescue" part="DN2540N5-SamacSys" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B99C6</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>DN2540N5</value>
+      <footprint>TO254P483X1016X2375-3P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/DN2540N5.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 400V 25Ohm</field>
+        <field name="Height">4.826</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">DN2540N5</field>
+        <field name="Mouser Part Number">689-DN2540N5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=689-DN2540N5</field>
+      </fields>
+      <libsource lib="HMN-rescue" part="DN2540N5-SamacSys" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E891FCB</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DN2540N5</value>
+      <footprint>TO254P483X1016X2375-3P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/DN2540N5.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 400V 25Ohm</field>
+        <field name="Height">4.826</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">DN2540N5</field>
+        <field name="Mouser Part Number">689-DN2540N5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=689-DN2540N5</field>
+      </fields>
+      <libsource lib="HMN-rescue" part="DN2540N5-SamacSys" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E881C3D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03_Male</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4212CC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F432015</tstamp>
+    </comp>
+    <comp ref="HS2">
+      <value>Heatsink</value>
+      <footprint>Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8CA945</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Lamp_Neon">
+      <description>Neon lamp</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">NE</field>
+        <field name="Value">Lamp_Neon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HMN-rescue" part="DN2540N5-SamacSys">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DN2540N5-SamacSys</field>
+        <field name="Footprint">TO254P483X1016X2375-3P</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/DN2540N5.pdf</field>
+        <field name="Description">MOSFET 400V 25Ohm</field>
+        <field name="Height">4.826</field>
+        <field name="Mouser Part Number">689-DN2540N5</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=689-DN2540N5</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">DN2540N5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+        <pin num="3" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink">
+      <description>Heatsink</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Valve" part="ECC88">
+      <description>double triode, low-noise</description>
+      <docs>http://www.r-type.org/pdfs/ecc88.pdf</docs>
+      <footprints>
+        <fp>VALVE*NOVAL*P*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ECC88</field>
+        <field name="Footprint">Valve:Valve_Noval_P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="output"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="K" type="BiDi"/>
+        <pin num="4" name="F1" type="power_in"/>
+        <pin num="5" name="F2" type="power_in"/>
+        <pin num="6" name="A" type="output"/>
+        <pin num="7" name="G" type="input"/>
+        <pin num="8" name="K" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="d3a" part="D3A">
+      <aliases>
+        <alias>EF85_copy</alias>
+      </aliases>
+      <description>pentode</description>
+      <docs>http://www.r-type.org/pdfs/ef80.pdf</docs>
+      <footprints>
+        <fp>VALVE*NOVAL*P*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D3A</field>
+        <field name="Footprint">Valve:Noval_Pentode</field>
+      </fields>
+      <pins>
+        <pin num="2" name="G1" type="input"/>
+        <pin num="3" name="F1" type="power_in"/>
+        <pin num="4" name="f1" type="power_in"/>
+        <pin num="5" name="f2" type="power_in"/>
+        <pin num="7" name="A" type="output"/>
+        <pin num="8" name="G3" type="input"/>
+        <pin num="9" name="G2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="HMN-rescue">
+      <uri>/Users/tiberiuvicol/Dropbox/RIAA/HMN/HMN-rescue.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Valve">
+      <uri>/Library/Application Support/kicad/library/Valve.lib</uri>
+    </library>
+    <library logical="d3a">
+      <uri>/Users/tiberiuvicol/Dropbox/RIAA/HMN/D3A.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R12-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J3-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="8"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(R15-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="8" name="Net-(Q2-Pad3)">
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="11" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="12" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(Q4-Pad3)">
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="14" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="15" name="Net-(R10-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="16" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="18" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="19" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="20" name="Net-(Q6-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Q5-Pad3)">
+      <node ref="Q6" pin="2"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="22" name="Net-(R19-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="23" name="Net-(NE1-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="NE1" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="25" name="Net-(NE1-Pad2)">
+      <node ref="U2" pin="8"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="NE1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C1-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(C2-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C5-Pad1)">
+      <node ref="J2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="33" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="34" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+  </nets>
+</export>

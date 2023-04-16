@@ -1,0 +1,50 @@
+### Missing 3D models - created on 2022-01-27 10:21
+### Printed by checking_3D_models plugin
+Board file: /Users/tiberiuvicol/Dropbox/RIAA/HMN/HMN.kicad_pcb
+3D missing models written to:
+/Users/tiberiuvicol/Dropbox/RIAA/HMN/HMN_missing3Dmodels.txt
+-------
+('D1', '${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRBlack.wrl')
+('D2', '${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_IRGrey.wrl')
+('NE1', '${KISYS3DMOD}/LED_THT.3dshapes/LED_D5.0mm.wrl')
+('U1', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Valve.3dshapes/Valve_ECC-83-1.wrl')
+('U2', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Valve.3dshapes/Valve_ECC-83-1.wrl')
+('C1', '${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT.wrl')
+('C2', '${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT.wrl')
+('C5', '${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4.wrl')
+('Q1', '/Users/tiberiuvicol/Dropbox/RIAA/HMN/C:\\Users\\rlwh9322\\Documents\\alt_lib\\SamacSys_Parts.3dshapes\\DN2540N5.stp')
+('Q3', '/Users/tiberiuvicol/Dropbox/RIAA/HMN/C:\\Users\\rlwh9322\\Documents\\alt_lib\\SamacSys_Parts.3dshapes\\DN2540N5.stp')
+('R2', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R5', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R7', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R8', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R9', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R10', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R15', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R16', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R17', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R18', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R20', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R21', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R3', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('Q5', '/Users/tiberiuvicol/Dropbox/RIAA/HMN/C:\\Users\\rlwh9322\\Documents\\alt_lib\\SamacSys_Parts.3dshapes\\DN2540N5.stp')
+('R11', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R14', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R13', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R1', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R19', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R12', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('J2', '${KISYS3DMOD}/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl')
+('J4', '${KISYS3DMOD}/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-3_P5.00mm.wrl')
+('R4', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('J1', '${KISYS3DMOD}/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl')
+('R6', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('C3', '${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L16.5mm_W7.3mm_P15.00mm_MKT.wrl')
+('C4', '${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4.wrl')
+('C6', '${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4.wrl')
+('J3', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/TerminalBlock.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl')
+('R1', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+('R1', '${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl')
+-------
+NUM of 3D missing models:41
+checked extensions ['.stp', '.step', '.stpZ']

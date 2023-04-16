@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name d3a)(type Legacy)(uri ${KIPRJMOD}/D3A.lib)(options "")(descr ""))
+  (lib (name HMN-rescue)(type Legacy)(uri ${KIPRJMOD}/HMN-rescue.lib)(options "")(descr ""))
+)
