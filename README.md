@@ -5,3 +5,5 @@ https://www.diyaudio.com/community/threads/his-masters-noise-a-thoroughly-modern
 PCB's are for power supply and separate left/right channels.</br>
 Install KiCad, download project, open HMN.kicad_pro and hmn_ps.kicad_pro
 ![image](https://user-images.githubusercontent.com/22703498/232843065-f356560a-05b5-4d79-bf93-6bdc76656b58.png)
+</br>
+![image](https://user-images.githubusercontent.com/22703498/232843565-91d0f566-089e-4b5f-aade-88125470fe40.png)
